@@ -1,13 +1,236 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img{
+    width: 100%;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    line-height: 1.7;
+    background-color: #252529;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+button{
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.top{
+    text-align: center;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: #313133;
+    
+}
+.container-fluid li .nav-link{
+    color: white;
+}
+.first{
+    margin-top: 30%;
+}
+.first h1{
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+.first .big-1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.first .small-1{
+    font-size: 19px;
+}
+.second{
+    margin-top: 100px;
+}
+.music{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.million{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.second p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.third{
+    margin-top: 30px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.image1{
+    margin-bottom: 30px;
+}
+.middle, .white{
+    background-color: #f4f4f4;
+    color: #313133;
+}
+.middle{
+    padding-top: 50px;
+    text-align: center;
+}
+.center{
+    width: 80%;
+    margin: auto;
+}
+.fourth h2{
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.fourth p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.fifth{
+    padding: 230px 0px;
+}
+.fifth h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.fifth p{
+    width: 90%;
+    margin: auto;
+    font-size: 23px;
+}
+.sixth{
+    padding: 60px 0px;
+}
+.sixth h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.sixth .orange{
+    margin: 20px 0;
+    border-bottom: 1px solid #313133;
+    padding-bottom: 20px;
+}
+.seventh{
+    padding: 60px 20px;
+    text-align: left;
+}
+.main-list{
+    display: flex;
+    justify-content: space-between;
+}
+.main-list h3{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f4f4f449;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.small-list li{
+    font-size: 14px;
+    color: #f4f4f4;
+}
+.footer{
+    text-align: center;
+    background-color: #313133;
+    padding: 18px 0;
+}
+@media(max-width: 800px){
+    .navbar{
+       display: block;
+       position: absolute;
+       padding-top: 60px;
+       top: 0;
+       left: 0;
+       background: #f2f2f2;
+       width: 50%;
+       height: 100%;
+       border-right: #ccc 1px solid;
+       opacity: 0.9;
+    }
+    .container-fluid li .nav-link{
+        color: #313133;
+    }
+    .first h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .first .big-1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .first .small-1{
+        font-size: 16px;
+    }
+    .second{
+        margin-top: 50px;
+    }
+    .music{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .million{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .second p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .third{
+        margin-top: 20px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .image1{
+        margin-bottom: 20px;
+    }
+    .middle{
+        padding-top: 30px;
+    }
+    .fourth h2{
+       font-size: 20px;
+       margin-bottom: 20px;
+    }
+    .fourth p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .fifth{
+        padding: 100px 0px;
+    }
+    .fifth h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .fifth p{
+        font-size: 16px;
+    }
+    .sixth{
+        padding: 30px 0px;
+    }
+    .sixth h3{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .sixth .orange{
+        margin: 10px 0;
+        padding-bottom: 10px;
+    }
+    .seventh{
+       display: none;
+    }
+    .footer{
+        padding: 18px 0;
+    }
 }
