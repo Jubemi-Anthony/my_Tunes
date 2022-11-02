@@ -1,236 +1,247 @@
 *{
     margin: 0;
     padding: 0;
-}
-img{
-    width: 100%;
+    box-sizing: border-box;
 }
 body{
-    font-family: 'PT Sans', sans-serif;
-    color: #fff;
-    line-height: 1.7;
-    background-color: #252529;
+    /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.pexels.com/photos/5789323/pexels-photo-5789323.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    background-color: aliceblue;
 }
-.container{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-li{
+ul{
     list-style: none;
 }
-button{
-    border: none;
-    color: white;
-    font-size: 16px;
-    padding: 20px 20px;
-}
-.top{
-    text-align: center;
-}
 .navbar{
-    position: fixed;
-    top: 0px;
-    width: 100%;
     display: flex;
-    background-color: #313133;
-    
-}
-.container-fluid li .nav-link{
-    color: white;
-}
-.first{
-    margin-top: 30%;
-}
-.first h1{
-    font-size: 65px;
-    margin-bottom: 25px;
-}
-.first .big-1{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-.first .small-1{
-    font-size: 19px;
-}
-.second{
-    margin-top: 100px;
-}
-.music{
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-.million{
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-.second p{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.third{
-    margin-top: 30px;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-.image1{
-    margin-bottom: 30px;
-}
-.middle, .white{
-    background-color: #f4f4f4;
-    color: #313133;
-}
-.middle{
-    padding-top: 50px;
-    text-align: center;
-}
-.center{
-    width: 80%;
-    margin: auto;
-}
-.fourth h2{
-   font-size: 30px;
-   margin-bottom: 30px;
-}
-.fourth p{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.fifth{
-    padding: 230px 0px;
-}
-.fifth h2{
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-.fifth p{
-    width: 90%;
-    margin: auto;
-    font-size: 23px;
-}
-.sixth{
-    padding: 60px 0px;
-}
-.sixth h3{
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-.sixth .orange{
-    margin: 20px 0;
-    border-bottom: 1px solid #313133;
-    padding-bottom: 20px;
-}
-.seventh{
-    padding: 60px 20px;
-    text-align: left;
-}
-.main-list{
-    display: flex;
+    border-bottom: 1px solid black;
+    padding: 20px 10px;
+    background-color: aquamarine;
     justify-content: space-between;
 }
-.main-list h3{
-    margin-bottom: 20px;
-    border-bottom: 1px solid #f4f4f449;
-    padding-bottom: 10px;
-    padding-right: 90px;
+.navbar ul{
+    margin-right: 30px;
+    display: flex;
+    gap: 20px;
 }
-.small-list li{
-    font-size: 14px;
-    color: #f4f4f4;
+.navbar p{
+    font-size: 2rem;
+    color: red;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
 }
-.footer{
+.container{
+    width: 70%;
+    margin: auto;
+}
+.home{
     text-align: center;
-    background-color: #313133;
-    padding: 18px 0;
 }
-@media(max-width: 800px){
-    .navbar{
-       display: block;
-       position: absolute;
-       padding-top: 60px;
-       top: 0;
-       left: 0;
-       background: #f2f2f2;
-       width: 50%;
-       height: 100%;
-       border-right: #ccc 1px solid;
-       opacity: 0.9;
-    }
-    .container-fluid li .nav-link{
-        color: #313133;
-    }
-    .first h1{
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
-    .first .big-1{
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    .first .small-1{
-        font-size: 16px;
-    }
-    .second{
-        margin-top: 50px;
-    }
-    .music{
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-    .million{
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    .second p{
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    .third{
-        margin-top: 20px;
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
-    .image1{
-        margin-bottom: 20px;
-    }
-    .middle{
-        padding-top: 30px;
-    }
-    .fourth h2{
-       font-size: 20px;
-       margin-bottom: 20px;
-    }
-    .fourth p{
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    .fifth{
-        padding: 100px 0px;
-    }
-    .fifth h2{
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    .fifth p{
-        font-size: 16px;
-    }
-    .sixth{
-        padding: 30px 0px;
-    }
-    .sixth h3{
-        margin-bottom: 10px;
-        font-size: 20px;
-    }
-    .sixth .orange{
-        margin: 10px 0;
-        padding-bottom: 10px;
-    }
-    .seventh{
-       display: none;
-    }
-    .footer{
-        padding: 18px 0;
-    }
+.home h1{
+    margin: 30px 0;
+}
+.gridMe{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.showBegin{
+    border: 1px solid black;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(green, rgba(0, 128, 0, 0.772),rgba(0, 128, 0, 0.4),white);
+}
+.showBegin h3{
+    margin: 10px 0px;
+    color: white;
+    font-size: 1.5rem;
+}
+.privacy{
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+.privacy span{
+    color: green;
+    cursor: pointer;
+}
+
+.startBtn, .logInBtn, .cancelEme{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logInBtn{
+    background-color: green;
+    color: white;
+}
+.cancelEme{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    margin: 20px 0;
+}
+.cancelEme:hover{
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+.logInBtn:hover{
+    background-color: white;
+    color: green;
+}
+.startBtn:hover{
+    background-color: green;
+    color: white;
+    border-color: white;
+}
+.topum{
+    display: flex;
+    align-items: center;
+}
+.start img{
+    width: 40%;
+}
+.start-buttons{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.brother, .dangerText{
+    font-size: 4rem;
+    width: 60%;
+}
+.brother span{
+    color: green;
+    font-weight: bold;
+}
+.register{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register form{
+    width: 75%;
+    margin: auto;
+    margin: 40px 0;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+.register form .firstFormInput, .coloumnLog input{
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.coloumnLog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrangeForm{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.arrangeForm input{
+    width: 49%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.center{
+    text-align: center;
+}
+.register form button{
+    margin-top: 30px;
+}
+.dangerList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+}
+.dangerList img{
+    width: 50px;
+}
+.dangerList li{
+    width: 150px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.dangerList h3{
+    margin-top: 10px;
+}
+.dangerList li:hover{
+    background-color: rgba(255, 0, 0, 0.572);
+    color: black
+}
+.danger{
+    margin: 30px 0px;
+}
+.red{
+    color: red;
+}
+.dangerText{
+    margin-bottom: 30px;
+}
+.report{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.763);
+    color: black;
+}
+.sendEMe{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;    
+    border-radius: 100%;
+    margin: 20px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sendEMe:hover{
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+.reporting{
+    font-size: 1.5rem;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.reporting span{
+    font-size: 2rem;
+    color: red;
+    margin: 0px 5px;
 }

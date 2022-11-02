@@ -1,13 +1,6 @@
-import React from 'react'
-
-const Buttons = ({text,color}) => {
-  return (
-    <div>
-        <button style={{backgroundColor: color}}>
-        {text}
-        </button>
-    </div>
-  ) 
+function Buttons(props){
+    return(
+        <button>{props.text}</button>
+    )
 }
-
-export default Buttons
+export default Buttons; 
