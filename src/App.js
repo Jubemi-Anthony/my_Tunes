@@ -19,7 +19,7 @@ function App() {
       <div className="container">
         {/* <Danger report={1} handleToggle={'handleToggle'}/>
         <Report toggle={toggle}/> */}
-        <Start/>
+        <Home/>
       </div>
     </div>
   );

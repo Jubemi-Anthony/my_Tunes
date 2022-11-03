@@ -1,4 +1,5 @@
 import Dangerlist from "../components/Dangerlist";
+import Animation2 from "../components/Animation2";
 
 const DANGERS_LIST = [
     {
@@ -322,6 +323,9 @@ function Danger(){
     return(
         <div className="danger">
             <p className="dangerText">Report a <span className="red">Crime</span> or an <span className="red">Emergency!</span> </p>
+            <div>
+                <Animation2/>
+            </div>
             <div>
                 <Dangerlist items={DANGERS_LIST}/>
             </div>

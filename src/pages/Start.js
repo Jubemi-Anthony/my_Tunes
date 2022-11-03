@@ -1,3 +1,4 @@
+import Animation3 from "../components/Animation3";
 
 function Start(){
     return(
@@ -7,6 +8,9 @@ function Start(){
                     <p>Be your <br/><span>Brother's</span> Keeper</p>
                 </div>
                 <img src="https://remar.org/wp-content/uploads/2020/08/2985-1024x843.png" alt="Nigeria" />
+            </div>
+            <div>
+                <Animation3/>
             </div>
             <div className="start-buttons">
                 <button className="startBtn">Create an account</button>

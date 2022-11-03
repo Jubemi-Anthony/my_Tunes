@@ -1,7 +1,13 @@
+import Animation4 from "../components/Animation4";
+
 function Login(){
     return(
         <div className="register">
-            <p className="brother">Keep your <span>Country</span> and <span>Yourself</span> safe.</p>
+            
+            <div className="topum">
+                <Animation4 top="Keep your Country and yourself"/>
+                <img src="https://remar.org/wp-content/uploads/2020/08/2985-1024x843.png" alt="Nigeria" />
+            </div>
             <form action="" className="form-two">
                 <div>
                     <div className="coloumnLog">

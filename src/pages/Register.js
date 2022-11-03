@@ -1,7 +1,12 @@
+import Animation4 from "../components/Animation4";
+
 function Register(){
     return(
         <div className="register">
-            <p className="brother">Join us in keeping <span>Everyone</span> safe.</p>
+             <div className="topum">
+                <Animation4 top="Join us in keeping Everyone"/>
+                <img src="https://remar.org/wp-content/uploads/2020/08/2985-1024x843.png" alt="Nigeria" />
+            </div>
             <form action="">
                 <input className="firstFormInput" type="text" placeholder="Full name"/>
                 <div className="arrangeForm">

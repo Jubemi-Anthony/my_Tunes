@@ -1,9 +1,13 @@
 import List from "../components/List";
+import Animation1 from "../components/Animation1";
 
 function Home (){
     return(
         <div className="home">
-            <h1>Welcome to the NAME APP</h1>
+            <h1>Welcome to the [STILL THINKING OF A NAME] APP</h1>
+            <div>
+                <Animation1/>
+            </div>
             <div className="gridMe">
                 <List image="https://img.icons8.com/external-filled-outline-wichaiwi/2x/external-robbery-gamefi-filled-outline-wichaiwi.png" title="Theft & Armed Robbery Alerts" paragraph="Help report Armed Robbery Cases"/>
                 <List image="https://img.icons8.com/external-stick-figures-gan-khoon-lay/2x/external-abuse-crimes-stick-figures-gan-khoon-lay.png" title="Help Stop Abuse" paragraph="Help people fight abuse"/>
